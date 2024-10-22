@@ -4,14 +4,13 @@ https://survey-form.freecodecamp.rocks. No copies este proyecto de demostración
 
 Historias de usuario:
 
-Debes tener un título de página en un elemento h1 con un id de title
+1 - Debes tener un título de página en un elemento h1 con un id de title - ✓
 
-Debes tener una corta explicación en el elemento p con un id de description
+2 - Debes tener una corta explicación en el elemento p con un id de description - ✓
 
-Debes tener un elemento form con un id de survey-form
+3 - Debes tener un elemento form con un id de survey-form - ✓
 
-Dentro del elemento form, debe ser required (requerido) ingresar tu nombre 
-en un campo de input que tenga un id de name y un type de text
+4 - Dentro del elemento form, debe ser required (requerido) ingresar tu nombre en un campo de input que tenga un id de name y un type de text - ✓
 
 Dentro del elemento form required (requerido) ingresar tu nombre en un campo 
 de input que tenga un id de email
