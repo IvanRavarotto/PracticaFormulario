@@ -12,8 +12,51 @@
 </header>
 <body>
   <form action="" id="survey-form">
-    <input type="text" name="name" id="name" required>
-    
+    <label id="name-label">Name</Nav>me<input type="text" name="name" id="name" required placeholder="Enter your name"></label>
+    <label id="email-label">Email<input type="email" name="email" id="email" required placeholder="Enter your Email"></label>
+    <label id="number-label">Age (optional)<input type="number" name="number" id="number" max="99" min="18" placeholder="Age"></label>
+
+    <p>Which option best describes your current role?</p>
+    <select id="dropdown" name="dropdown">
+       <option>Select current role</option>
+       <option>Student</option>
+       <option>Full Time Job</option>
+       <option>Full Time Leaner</option>
+       <option>Prefer not to say</option>
+       <option>Other</option>
+    </select>
+
+    <p>Would you recommend freeCodeCamp to friend?</p>
+    <label><input type="radio" value="definitely" name="recommend">Definitely</label>
+    <label><input type="radio" value="maybe" name="recommend">Maybe</label>
+    <label><input type="radio" value="not-sure" name="recommend">Not Sure</label>
+
+    <p>What is your favorite feature of freeCodeCamp?</p>
+    <select name="dropdown2" id="dropdown2">
+      <option>Select an option</option>
+      <option>Challenges</option>
+      <option>Projects</option>
+      <option>Community</option>
+      <option>Open Source</option>
+    </select>
+
+    <p>What would you like to see improved? (Check all that apply)</p>
+    <label><input type="checkbox" name="front-end-projects" id="front-end-projects">Front-end Projects</label>
+    <label><input type="checkbox" name="back-end-projects" id="back-end-projects">Back-end Projects</label>
+    <label><input type="checkbox" name="data-visualization" id="data-visualization">Data Visualization</label>
+    <label><input type="checkbox" name="challenges" id="challenges">Challenges</label>
+    <label><input type="checkbox" name="open-source-community" id="open-source-community">Open Source Community</label>
+    <label><input type="checkbox" name="glitter-help-rooms" id="glitter-help-rooms">Glitter help rooms</label>
+    <label><input type="checkbox" name="videos" id="videos">Videos</label>
+    <label><input type="checkbox" name="city-meetups" id="city-meetups">City Meetups</label>
+    <label><input type="checkbox" name="wiki" id="wiki">Wiki</label>
+    <label><input type="checkbox" name="forum" id="forum">Forum</label>
+    <label><input type="checkbox" name="additional-courses" id="additional-courses">Additional Courses</label>}
+
+    <p>Any comments or suggestions?</p>
+    <label><textarea name="comments" id="comments" placeholder="Enter your comment here..."></textarea></label>
+
+    <button id="submit">Submit</button>
   </form>
 </body>
 <footer>
