@@ -1,0 +1,70 @@
+body{
+  background-color: blue;
+}
+form{
+  background-color: rgba(0, 3, 88, 0.649);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 35px 25px 35px;
+  border-radius: 5px;
+  padding: 30px 20px;
+}
+label, p{
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  width: 100%;
+}
+option, select{
+  color: gray;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+#name, #email, #number, p, label{
+  display: block;
+  border: 1px;
+}
+
+#checkbox, #select-menu{
+  padding: auto;
+  margin: 0 0 30px 0;
+}
+#p-checkbox, #p-select{
+  padding: auto;
+  margin: 0;
+}
+
+#p-textarea{
+  padding: auto;
+  display: block;
+  width: 100%;
+  margin: 0 0 8px 0;
+}
+
+textarea{
+  width: 100%;
+  height: 100px;
+  font-size: 20px;
+  padding: auto;
+  padding: 0px;
+  border: 1px;
+}
+
+#submit{
+  width: 100%;
+  background-color: #37af65;
+  color: white;
+  border-radius: 2px;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  display: block;
+  margin: 0;
+}
+
+button{
+  margin: 0 0 0 20px;
+  padding: 20px;
+  border: none;
+}
